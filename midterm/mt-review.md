@@ -5,12 +5,10 @@
 <br>[04:50:02.714] > 프로세스에서 없는 파이프에 쓰려고 했습니다.
 <br>분명히 22, 80, 443 포트 열려있는거 확인했는데...
 > 해결: 가상머신 다시 새로 설치하여 해결(5주, 6주 강의 참고)
-<br>
 - 오류내용
 <br>vscode에 새 폴더를 추가하려고 하니까 퍼미션 오류발생
 >- 문제: 권한이 내가 만든 계정인 mid가 아니라 root계정에 있었기 때문에 이러한 문제 발생
 >- 해결: 원하는 디렉토리의 상위 디렉토리에서 sudo chown -R mid.mid /var/www/라고 명령어 입력하여 권한 바꿔줘서 해결
-<br>
 - 오류내용
 <br>데이터를 다운받으려고 SOURCE C:/temp/sakila-db/sakila-schema.sql; 명령을 치니까 이러한 오류 발생
 <br>ERROR: Failed to open file 'C:/temp/sakila-db/sakila-schema.sql', error: 2
