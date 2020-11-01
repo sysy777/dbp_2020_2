@@ -47,3 +47,4 @@ DVD를 사용자의 기호에 맞게 DVD를 분류하여 보여주는 웹사이�
 <br>3) 관람 등급 별 분류 (미국 영상물 관람등급 기준)
 
 # 동작 화면 소개 영상
+https://www.youtube.com/watch?v=J715HtU6-to
