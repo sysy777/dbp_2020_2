@@ -1,3 +1,17 @@
+# 새로 배운 내용 및 정리
+- SQL문 GROUP BY절
+> 데이터를 원하는 그룹으로 분류<br>
+나누고자 하는 그룹의 컬럼명을 SELECT절과 GROUP BY절 뒤에 추가<br>
+집계함수와 함께 사용되는 상수는 GROUP BY 절에 추가하지 않아도 됨.<br><br>
+>- DISTINCT와 GROUP BY절의 차이
+>>- DISTINCT<br>
+특정 그룹 구분없이 중복된 데이터 제거
+>>- GROUP BY<br>
+집계함수를 사용하여 특정 그룹으로 구분
+- SQL문 HAVING절
+> WHERE절에서는 사용할 수 없는 집계함수를 이용하여 조건 비교 시 사용.<br>
+GROUP BY절과 함께 사용.
+
 # 문제 발생 및 해결 내용
 - 오류내용
 <br>[04:50:02.693] > ssh: connect to host 127.0.1.1 port 22: Connection refused]0;C:\WINDOWS\System32\cmd.exe
